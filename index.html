@@ -1,4 +1,113 @@
-<h1>这是一个测试案例</h1>
-<h4>五、开放性问题</h4>
+<title>酚醛树酯微课反馈评价网页</title>
+    <h1>酚醛树酯微课反馈评价网页</h1>
+    <form action="/" method="post">
+        <h4>一、基本信息</h4>
+        <!-- 文本输入框 -->
+        <label for="name">请输入你的姓名</label>
+        <input type="text" id="name" name="name" required>
+
+        <br>
+
+        <!-- 单选按钮 -->
+        <label>请选择你的性别</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label>男</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label>女</label>
+
+        <br>
+
+        <!-- 下拉列表 -->
+        <label for="country">请选择你的年级</label>
+        <select id="country" name="country">
+            <option value="1">高一</option>
+            <option value="2">高二</option>
+            <option value="3">高三</option>
+        </select>
+
+        <br>
+
+        <h4>二、微课内容评价</h4>
+        <label>您认为微课的内容是否清晰易懂？</label>
+        <input type="radio" name="clear">
+        <label>非常清晰易懂</label>
+        <input type="radio" name="clear">
+        <label>一般</label>
+        <input type="radio" name="clear">
+        <label>不太清晰不懂</label>
+
+        <br>
+
+        <label>微课的内容是否对您的学习有帮助？</label>
+        <input type="radio" name="help">
+        <label>非常有帮助</label>
+        <input type="radio" name="help">
+        <label>一般</label>
+        <input type="radio" name="help">
+        <label>没有帮助</label>
+
+        <br>
+
+        <label>您认为微课中涉及的知识点是否全面？</label>
+        <input type="radio" name="all">
+        <label>非常全面</label>
+        <input type="radio" name="all">
+        <label>一般</label>
+        <input type="radio" name="all">
+        <label>不够全面</label>
+
+        <br>
+
+        <h4>三、讲解表现评价</h4>
+
+
+        <label>您对讲解的风格是否满意？</label>
+        <input type="radio" name="satisfied">
+        <label>满意</label>
+        <input type="radio" name="satisfied">
+        <label>一般</label>
+        <input type="radio" name="satisfied">
+        <label>不满意</label>
+
+        <br>
+
+        <label>您认为讲解的语速是否适中？</label>
+        <input type="radio" name="speak">
+        <label>适中</label>
+        <input type="radio" name="speak">
+        <label>偏快</label>
+        <input type="radio" name="speak">
+        <label>偏慢</label>
+
+        <br>
+
+        <h4>四、技术体验评价</h4>
+
+        <label>视频画质是否清晰？</label>
+        <input type="radio" name="movie">
+        <label>清晰</label>
+        <input type="radio" name="movie">
+        <label>一般</label>
+        <input type="radio" name="movie">
+        <label>模糊</label>
+
+        <br>
+
+        <label>音频质量是否良好？</label>
+        <input type="radio" name="aduio">
+        <label>非常好</label>
+        <input type="radio" name="aduio">
+        <label>一般</label>
+        <input type="radio" name="aduio">
+        <label>有杂音</label>
+
+
+        <h4>五、开放性问题</h4>
         <label>您对微课有哪些具体的建议或意见？</label>
         <input type="textarea">
+
+
+        <br>
+        <br>
+        <input type="submit" value="提交">
+    </form>
